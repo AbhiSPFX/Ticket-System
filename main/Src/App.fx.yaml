@@ -9,7 +9,7 @@ App As appinfo:
             )
         );
         If(!IsBlank(varticketid),ViewForm(Form1))
-    Theme: =TeamsTheme
+    Theme: =SteelTheme
 
     Host As hostControl.DefaultHostControlVariant:
         OnCancel: =false
